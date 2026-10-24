@@ -27,7 +27,8 @@
 2. Открой папку проекта в VS Code или открой терминал в папке `Lab2_Perimeter_Signal`.
 3. Установи зависимость:
 
-   `python -m pip install -r requirements.txt`
+   py -m pip install -r requirements.txt
+   py src\perimeter_signal.py
 
 4. Запусти:
 
@@ -45,7 +46,7 @@
 
 Из корневой папки проекта:
 
-`python -m unittest discover -s tests -v`
+`py -m unittest discover -s tests -v`
 
 Тесты проверяют гармоническую модель, параметры EMA, ограничение буфера, проверку невалидных значений и число отсчётов при заданных частоте и длительности.
 
@@ -74,7 +75,7 @@ git init
 git add .
 git commit -m "Initial commit: perimeter signal preprocessing"
 git branch -M main
-git remote add origin https://github.com/<ТВОЙ_ЛОГИН>/lab2-perimeter-signal.git
+git remote add origin git remote add origin https://github.com/Eissman/lab2-perimeter-signal.git
 git push -u origin main
 ```
 
